@@ -1,0 +1,14 @@
+/*Documento css*/
+
+body { background-color: blueviolet;
+     font-family: "Quicksand", sans-serif;}
+
+h1, h3 { color: floralwhite; 
+         font-size: 2em; 
+         font-weight: bold; 
+         text-transform:uppercase;}
+
+h2, h4 { color: antiquewhite;}
+
+div p small { color: cadetblue;
+         font-weight: bold;}
