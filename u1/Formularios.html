@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Tipografía-->
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/formularios.css">
+
 </head>
 <body>
-    <head>
+    <header class="cabecera">
         <h1>Formularios HTML</h1>
-    </head>
-    <main>
-        <div>
+    </header>
+    <main class="principal">
+        <div class="contenido">
+            <div>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit..</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex error tempore animi neque, dolor distinctio 
             perspiciatis provident eos harum corporis facilis porro reprehenderit suscipit exercitationem ut non. 
             Enim, hic dolores.</p>
-        </div>
-        <div>
-            <form action="#" method="post">
+            </div>
+            <div class="formulario">
+                <form action="#" method="post">
                 <input type="text" name="nombre" id="" placeholder="Escribe tu nombre" required>
                 <input type="email" name="email" id="" placeholder="email" required>
                 <input type="tell" name="tel" id="" placeholder="(xxx) xxx xxxx">
@@ -29,12 +36,13 @@
                     <option value="Egresado"></option>
                 </datalist>
                 <textarea name="mensaje" id="" placeholder="Mensaje:"></textarea>
-                <input type="submit" value="Enviar">
-             </form>
+                <input id="btn" type="submit" value="Enviar">
+                </form>
+             </div>
         </div>
     </main>
-    <footer>
-        <span>copyright - diseñado por Arely Cota</span>
+    <footer class="pie">
+        <p>copyright - diseñado por Arely Cota</p>
     </footer>
 </body>
 </html>
