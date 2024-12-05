@@ -22,7 +22,7 @@ div, header, footer, main { box-sizing: border-box;}
 
 .principal { width: 100%;
      padding: 0px 0px;
-     background-image: url(/img/kitchen.jpg);
+     background-image: url(../img/kitchen.jpg);
     }
 
 .contenido { width: 100%;
